@@ -2,6 +2,11 @@
 
 ## MEMBERS: Courtney Gomez | Lisa Harrell | Carlos Quiroz | Gerald Watts III
 
+<hr>
+
+<img src="Images/imdb.jpg" class="center">
+
+<hr>
 
 ## **INTRODUCTION**
 
