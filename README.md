@@ -12,7 +12,7 @@ The goal of this project is to illustrate Extract Transform Load (ETL) using Exc
 <ul>
     <li>Collect data  from various maintained sources </li>
     <li>Perform cleaning, merging, filtering, normalization and aggregations of all the data being used</li>
-    <li>Ppload the files in a database in preparation for more thorough analysis</li>
+    <li>Upload the files in a database in preparation for more thorough analysis</li>
     <li>Formulate ideas on what types of questions or analyses can be drawn from the datasets</li>
 </ul>
 <hr>
@@ -28,7 +28,7 @@ The goal of this project is to illustrate Extract Transform Load (ETL) using Exc
 <hr>
 
 ## DATA EXTRACTION
-For the data extraction phase, we took data from 3 sources and converted them to csv files.  In Jupyter Notebook, the data was imported by using the csv module which can read csv data.  The file paths were saved and the module can import data by connecting through the file path locations.  We developed the design of our database using quickdatabasediagrams.com.  On this website, you can name tables and columns and assign data types for your database.  Each table has a primary key and we linked the tables together using primary and foreign keys.  After the schema was designed, we exported the file and uploaded it into PGAdmin to create the structure of the database.
+For the data extraction phase, we extracted data from 3 csv files.  In Jupyter Notebook, the data was imported by using the csv module which can read csv data.  The file paths were saved and the module can import data by connecting through the file path locations.  We developed the design of our database using quickdatabasediagrams.com.  On this website, you can name tables and columns and assign data types for your database.  Each table has a primary key and we linked the tables together using primary and foreign keys.  After the schema was designed, we exported the file and uploaded it into PGAdmin to create the structure of the database.
 
 ## DATA TRANSFORMATION
 During the transformation phase, we performed various data cleaning tactics to get the data clean before loading into the database.  
