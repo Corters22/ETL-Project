@@ -4,7 +4,7 @@
 
 <hr>
 
-<img src="Images/imdb.jpg" class="center">
+<img src="Images/IMDb_Header.jpg" class="center">
 
 <hr>
 
