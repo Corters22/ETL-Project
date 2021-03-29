@@ -1,6 +1,6 @@
 <hr>
 <img src="Images/IMDb_Header.jpg" class="center">
-<p><h1>Courtney Gomez   |   Lisa Harrell   |   Carlos Quiroz   |   Gerald Watts III </h1></p>
+<p><h1>Courtney Gomez  |  Lisa Harrell  |  Carlos Quiroz  |  Gerald Watts III </h1></p>
 <hr>
 
 ## INTRODUCTION
