@@ -1,11 +1,7 @@
-# IMDb ETL-Challenge
-
-## MEMBERS: Courtney Gomez | Lisa Harrell | Carlos Quiroz | Gerald Watts III
-
+# IMDb ETL PROJECT
 <hr>
-
 <img src="Images/IMDb_Header.jpg" class="center">
-
+<p><h2>MEMBERS: Courtney Gomez | Lisa Harrell | Carlos Quiroz | Gerald Watts III </h2></p>
 <hr>
 
 ## **INTRODUCTION**
