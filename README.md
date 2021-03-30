@@ -29,9 +29,14 @@ The goal of this project is to illustrate Extract Transform Load (ETL) using Exc
 
 ## DATA EXTRACTION
 For the data extraction phase, we extracted data from 3 csv files.  In Jupyter Notebook, the data was imported by using the csv module which can read csv data.  The file paths were saved and the module can import data by connecting through the file path locations.  We developed the design of our database using quickdatabasediagrams.com.  On this website, you can name tables and columns and assign data types for your database.  Each table has a primary key and we linked the tables together using primary and foreign keys.  After the schema was designed, we exported the file and uploaded it into PGAdmin to create the structure of the database.
-
+</ul>
+<hr>
 ## DATA TRANSFORMATION
 During the transformation phase, we performed various data cleaning tactics to get the data clean before loading into the database.  
-
+</ul>
+<hr>
 ## DATA LOADING
 To execute the load phase, a connection was created between the Jupyter Notebook and PGAdmin.  We also imported SQLAlchemy, which is a Python module that enables you to connect the two applications.  The file path of the database was saved and an "engine" was created to form the connection.  Finally, the tables that were previously built are inserted into the database using the insert command, which completes the ETL process.
+<hr>
+<img src="Images/ERD.png" class="center">
+<hr>
