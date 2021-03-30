@@ -35,8 +35,17 @@ For the data extraction phase, we extracted data from 3 csv files.  In Jupyter N
 During the transformation phase, we performed various data cleaning tactics to get the data clean before loading into the database.  
 </ul>
 <hr>
-## DATA LOADING
-To execute the load phase, a connection was created between the Jupyter Notebook and PGAdmin.  We also imported SQLAlchemy, which is a Python module that enables you to connect the two applications.  The file path of the database was saved and an "engine" was created to form the connection.  Finally, the tables that were previously built are inserted into the database using the insert command, which completes the ETL process.
-<hr>
-<img src="Images/ERD.png" class="center">
-<hr>
+
+## DATA LOADING (PGAdmin SQL)
+</ol>
+    <li>Created ERD Diagram via QuickDBD that shows how all the different normalized has been related</li>
+        <ul>
+            <li>Used movie_id and cast_member_id as primary & foreign keys</li>
+        </ul>
+    
+<img src="Images/ERD.png" class="center"/>    
+    <li>Created a new database called ERD_db</li>
+    <li>Wrote a Schema to create the tables in the database and setting primary/foreign composite keys for each dataset</li>
+    <li>Imported all three normalized datasets successfully in SQL server </li>
+    <li>Generated some queries to show how the data can be useful to analysts in the future</li>
+
