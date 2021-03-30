@@ -37,7 +37,7 @@ During the transformation phase, we performed various data cleaning tactics to g
 <ol>
     <li><strong>Data Cleaning & Filtering</strong></li>
         <ul>
-            <li>Dataset1: principal.csv </li>
+            <li>Dataset1: movie.csv </li>
                 <ul>
                     <li>????????</li>
                     <li>????????</li>
@@ -55,7 +55,15 @@ During the transformation phase, we performed various data cleaning tactics to g
                     <li>????????</li>
                     <li>????????</li>
                 </ul>
-
+ <li><strong>Data Normalization</strong><p><img src="images/transform.png" width=200 align="right"/></p></li>
+        <ul>
+            <li>Final normalized datasets</li>
+            <ul>
+                <li>movie data - normalizing not needed because data is small</li>
+                <li>actors data - normalizing not needed because data is small</li>
+                <li>principal data - normalizing not needed because data is small</li>
+        </ul>
+</ol>
 
 ## DATA LOADING (PGAdmin SQL)
 </ol>
