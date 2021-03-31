@@ -28,14 +28,14 @@ The goal of this project is to illustrate Extract Transform Load (ETL) using Exc
 <hr>
 
 ## DATA EXTRACTION
-</ul>
+<ul>
 For the data extraction phase, we extracted data from 3 csv files.  In Jupyter Notebook, the data was imported by using the csv module which can read csv data.  The file paths were saved and the module can import data by connecting through the file path locations.  We developed the design of our database using quickdatabasediagrams.com.  On this website, you can name tables and columns and assign data types for your database.  Each table has a primary key and we linked the tables together using primary and foreign keys.  After the schema was designed, we exported the file and uploaded it into PGAdmin to create the structure of the database.
-
+</ul>
 </ol>
 
 ## DATA TRANSFORMATION (Python & Pandas)  
 </ul>
-During the transformation phase, we performed various data cleaning tactics to get the data clean before loading into the database.  
+During the transformation phase, we performed various data cleaning tactics to get the data clean before loading into the database. None of the datasets requred normalization because they are small
 <ol>
     <li><strong>Data Cleaning & Filtering</strong></li>
         <ul>
@@ -55,16 +55,7 @@ During the transformation phase, we performed various data cleaning tactics to g
                 <ul>
                     <li>Checked and dropped duplicate values</li>
                     <li>Checked and dropped all null values</li>
-                </ul>
-            
-    <li><strong>Data Normalization</strong></li>
-        <ul>
-            <li>Final normalized datasets</li>
-            <ul>
-                <li>movie data - normalizing not needed because data is small</li>
-                <li>actors data - normalizing not needed because data is small</li>
-                <li>principal data - normalizing not needed because data is small</li>
-        </ul>
+                </ul>            
 </ol>
 
 ## DATA LOADING (PGAdmin SQL)
