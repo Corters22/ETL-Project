@@ -1,6 +1,6 @@
 ![](Images/IMDb_Header.jpg)
 
-# Courtney Gomez   |   Lisa Harrell   |   Carlos Quiroz   |   Gerald Watts III
+# Courtney Gomez | Lisa Harrell | Carlos Quiroz | Gerald Watts III
 
 
 ## INTRODUCTION
