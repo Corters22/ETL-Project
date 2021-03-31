@@ -56,7 +56,7 @@ During the transformation phase, we performed various data cleaning tactics to g
                     <li>????????</li>
                     <li>????????</li>
                 </ul>
- <li><strong>Data Normalization</strong><p><img src="Images/truth.jpg" width=300 align="right"/></p></li>
+    <li><strong>Data Normalization</strong></li>
         <ul>
             <li>Final normalized datasets</li>
             <ul>
