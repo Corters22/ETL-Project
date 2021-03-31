@@ -32,7 +32,8 @@ For the data extraction phase, we extracted data from 3 csv files.  In Jupyter N
 </ul>
 <hr>
 </ol>
-## DATA TRANSFORMATION (Python & Pandas)
+
+## DATA TRANSFORMATION (Python & Pandas) - 
 During the transformation phase, we performed various data cleaning tactics to get the data clean before loading into the database.  
 <ol>
     <li><strong>Data Cleaning & Filtering</strong></li>
