@@ -54,6 +54,8 @@ During the transformation phase, we performed various data cleaning tactics to g
             <li>Dataset3: principal.csv </li>
                 <ul>
                     <li>Checked and dropped duplicate values</li>
+                    <li>Dropped on corruupted row</li>
+                    <li>Dropped columns except "imdb_title_id", "title", "year", "genre",</li>
                     <li>Checked and dropped all null values</li>
                 </ul>            
 </ol>
