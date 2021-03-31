@@ -35,7 +35,7 @@ For the data extraction phase, we extracted data from 3 csv files.  In Jupyter N
 
 ## DATA TRANSFORMATION (Python & Pandas)  
 </ul>
-During the transformation phase, we performed various data cleaning tactics to get the data clean before loading into the database. None of the datasets requred normalization because they are small
+During the transformation phase, we performed various data cleaning tactics to get the data clean before loading into the database. None of the datasets requred normalization because they are small.
 <ol>
     <li><strong>Data Cleaning & Filtering</strong></li>
         <ul>
@@ -45,7 +45,7 @@ During the transformation phase, we performed various data cleaning tactics to g
                     <li>????????</li>
                     <li>????????</li>
                 </ul>
-            <li>Dataset2: names.csv </li>
+            <li>Dataset2: actors.csv </li>
                 <ul>
                     <li>Removed all columns except "imdb_name_id, name, spouses, children, divorces"</li>
                     <li>Checked and dropped all null values</li>
