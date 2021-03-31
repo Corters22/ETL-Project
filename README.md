@@ -44,11 +44,11 @@ During the transformation phase, we performed various data cleaning tactics to g
                     <li>????????</li>
                     <li>????????</li>
                 </ul>
-            <li>Dataset2: actors.csv </li>
+            <li>Dataset2: names.csv </li>
                 <ul>
-                    <li>????????</li>
-                    <li>????????</li>
-                    <li>????????</li>
+                    <li>Removed all columns except "imdb_name_id, name, spouses, children, divorces"</li>
+                    <li>Checked and dropped all null values</li>
+                    <li>Checked and dropped duplicate values in the 'imdb_name_id' column</li>
                 </ul>
             <li>Dataset3: principal.csv </li>
                 <ul>
@@ -56,7 +56,7 @@ During the transformation phase, we performed various data cleaning tactics to g
                     <li>????????</li>
                     <li>????????</li>
                 </ul>
- <li><strong>Data Normalization</strong><p><img src="images/transform.png" width=200 align="right"/></p></li>
+ <li><strong>Data Normalization</strong><p><img src="Images/truth.jpg" width=300 align="right"/></p></li>
         <ul>
             <li>Final normalized datasets</li>
             <ul>
@@ -75,7 +75,7 @@ During the transformation phase, we performed various data cleaning tactics to g
     
 <img src="Images/ERD.png" class="center"/>    
     <li>Created a new database called ERD_db</li>
-    <li>Wrote a Schema to create the tables in the database and setting primary/foreign composite keys for each dataset</li>
+    <li>Wrote a Schema to create the tables in the database and setting primary keys for each dataset</li>
     <li>Imported all three normalized datasets successfully in SQL server </li>
     <li>Generated some queries to show how the data can be useful to analysts in the future</li>
 
