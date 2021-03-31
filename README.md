@@ -68,8 +68,8 @@ During the transformation phase, we performed various data cleaning tactics to g
             <li>Used movie_id and cast_member_id as primary & foreign keys</li>
         </ul>
     
-<img src="Images/houston.jpg" width=425 align="right"/>    
-    <li>Created a new database called ERD_db</li>
+<img src="Images/ERD.png" class="center""/>    
+    <li>Created a new database called IMDb_db</li>
     <li>Wrote a Schema to create the tables in the database and setting primary keys for each dataset</li>
     <li>Imported all three normalized datasets successfully in SQL server </li>
     <li>Generated some queries to show how the data can be useful to analysts in the future</li>
