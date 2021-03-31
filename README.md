@@ -29,7 +29,7 @@ The goal of this project is to illustrate Extract Transform Load (ETL) using Exc
 
 ## DATA EXTRACTION
 <ul>
-For the data extraction phase, we extracted data from 3 csv files.  In Jupyter Notebook, the data was imported by using the csv module which can read csv data.  The file paths were saved and the module can import data by connecting through the file path locations.  We developed the design of our database using quickdatabasediagrams.com.  On this website, you can name tables and columns and assign data types for your database.  Each table has a primary key and we linked the tables together using primary and foreign keys.  After the schema was designed, we exported the file and uploaded it into PGAdmin to create the structure of the database.
+For the data extraction phase, we extracted data from 3 csv files.  In Jupyter Notebook, the data was imported by using the csv module which can read csv data.  The file paths were saved and the module can import data by connecting through the file path locations.  We developed the design of our database using quickdatabasediagrams.com.  On this website, you can name tables and columns and assign data types for your database.  Each table has a primary key and we linked the tables together using primary and foreign keys. After the schema was designed, we exported the file and uploaded it into PGAdmin to create the structure of the database.
 </ul>
 
 ## DATA TRANSFORMATION (Python & Pandas)  
