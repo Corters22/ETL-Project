@@ -41,9 +41,8 @@ During the transformation phase, we performed various data cleaning tactics to g
         <ul>
             <li>Dataset1: movie.csv </li>
                 <ul>
-                    <li>????????</li>
-                    <li>????????</li>
-                    <li>????????</li>
+                    <li>Dropped on corrupted row</li>
+                    <li>Dropped columns except "imdb_title_id", "title", "year", "genre",</li>
                 </ul>
             <li>Dataset2: actors.csv </li>
                 <ul>
@@ -54,8 +53,6 @@ During the transformation phase, we performed various data cleaning tactics to g
             <li>Dataset3: principal.csv </li>
                 <ul>
                     <li>Checked and dropped duplicate values</li>
-                    <li>Dropped on corruupted row</li>
-                    <li>Dropped columns except "imdb_title_id", "title", "year", "genre",</li>
                     <li>Checked and dropped all null values</li>
                 </ul>            
 </ol>
