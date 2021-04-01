@@ -23,7 +23,7 @@ We obtained 3 data files from the IMDB Movies Extensive dataset located at https
 
 ## DATA EXTRACTION
 
-For the data extraction phase, we extracted data from 3 csv files.  In Jupyter Notebook, the data was imported by using the csv module which can read csv data.  The file paths were saved and the module can import data by connecting through the file path locations.  We developed the design of our database using quickdatabasediagrams.com.  On this website, you can name tables and columns and assign data types for your database.  Each table has a primary key and we linked the tables together using primary and foreign keys. After the schema was designed, we exported the file and uploaded it into PGAdmin to create the structure of the database.
+For the data extraction phase, we extracted data from 3 csv files.  In Jupyter Notebook, the data was imported by using the csv module which can read csv data.  The file paths were saved and the module can import data by connecting through the file path locations.  You can find the full code [here](https://github.com/Corters22/ETL-Project/blob/main/extract_and_transform.ipynb). We developed the design of our database using quickdatabasediagrams.com.  On this website, you can name tables and columns and assign data types for your database.  Each table has a primary key and we linked the tables together using primary and foreign keys. After the schema was designed, we exported the file and uploaded it into PGAdmin to create the structure of the database.
 
 ## DATA TRANSFORMATION (Python & Pandas)  
 
@@ -42,9 +42,9 @@ During the transformation phase, we performed various data cleaning tactics to g
 
 ## DATA LOADING (PGAdmin SQL)
 
- - Created primary & foreign keys
  - Created a new database called IMDb_db
- - Wrote a Schema to create the tables in the database and setting primary keys for each dataset
+ - Wrote a [schema](https://github.com/Corters22/ETL-Project/blob/main/schema.sql) to create the tables in the database and set primary keys for each dataset
+ - Created primary & foreign keys
  - Imported all three normalized datasets successfully in SQL server 
  - Generated some queries to show how the data can be useful to analysts in the future
  - Created ERD Diagram that shows how all the different normalized tables are related 
