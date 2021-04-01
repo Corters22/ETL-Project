@@ -38,6 +38,7 @@ During the transformation phase, we performed various data cleaning tactics to g
  - Dataset3: principal.csv
    - Checked and dropped duplicate values
    - Checked and dropped all null values
+   - Removed order of importance column
 
 ## DATA LOADING (PGAdmin SQL)
 
